@@ -7,7 +7,7 @@ const NavTab = ({ data }) => {
 
   const handleItemClick = (item) => {
     if (item.url) {
-      // Navigate to URL (implement your navigation logic here)
+ 
       console.log(`Navigating to: ${item.url}`);
     } else if (item.children) {
       setCurrentLevel([item.children]);
